@@ -7,7 +7,7 @@ const ResponsysBridge = {
         RNResponsysBridge.start();
     },
     registerUserId: function(userId) {
-        RNResponsysBridge.registerUserId(userId);
+        RNResponsysBridge.registerUserId(''+userId); //convert to string to prevent iOS conversion error
     },
     trackEvent: function(eventName) {
         RNResponsysBridge.trackEvent(eventName);

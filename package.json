@@ -1,14 +1,88 @@
 {
-  "name": "react-native-responsys-bridge",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "git+https://github.com/EwyynTomato/react-native-responsys-bridge.git",
+  "_id": "react-native-responsys-bridge@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-YR4WRt497DY6C4n577oja+tZwVs=",
+  "_location": "/react-native-responsys-bridge",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-responsys-bridge@git+https://github.com/EwyynTomato/react-native-responsys-bridge.git",
+    "name": "react-native-responsys-bridge",
+    "escapedName": "react-native-responsys-bridge",
+    "rawSpec": "git+https://github.com/EwyynTomato/react-native-responsys-bridge.git",
+    "saveSpec": "git+https://github.com/EwyynTomato/react-native-responsys-bridge.git",
+    "fetchSpec": "https://github.com/EwyynTomato/react-native-responsys-bridge.git",
+    "gitCommittish": "master"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/EwyynTomato/react-native-responsys-bridge.git#d12d23c0dd370a84630c3642251820fd79d7e993",
+  "_spec": "react-native-responsys-bridge@git+https://github.com/EwyynTomato/react-native-responsys-bridge.git",
+  "_where": "/Users/testaccount/Dev/reebonz-mobile-app-github",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Getting started",
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": ""
+  "license": "",
+  "main": "index.js",
+  "name": "react-native-responsys-bridge",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1",
+  "react-native": {
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "os-browserify",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "dgram": "react-native-udp",
+    "stream": "stream-browserify",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify"
+  },
+  "browser": {
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "os-browserify",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "dgram": "react-native-udp",
+    "stream": "stream-browserify",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify"
+  }
 }
