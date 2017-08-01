@@ -7,5 +7,7 @@
 
 @interface RNResponsysBridge : NSObject <RCTBridgeModule>
 
++ (void)startWithAPIKey:(NSString *)key andAccountToken:(NSString*)token;
+
 @end
   
