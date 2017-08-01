@@ -30,19 +30,6 @@ public class RNResponsysBridgeModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void start() {
         getPushIOManager().ensureRegistration();
-
-        //TODO: deleteme
-        getPushIOManager().registerPushIOListener(new PushIOListener() {
-            @Override
-            public void onPushIOSuccess() {
-                Log.i("PUSHIO", "----onPushIOSuccess");
-            }
-
-            @Override
-            public void onPushIOError(String s) {
-                Log.i("PUSHIO", "----onPushIOError");
-            }
-        });
     }
 
     @ReactMethod
