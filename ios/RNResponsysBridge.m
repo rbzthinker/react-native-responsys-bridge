@@ -28,8 +28,6 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(start) {};
-
 RCT_EXPORT_METHOD(registerUserId:(NSString *)userId) {
     [[PushIOManager sharedInstance] registerUserID:userId];
 }

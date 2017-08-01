@@ -28,11 +28,6 @@ public class RNResponsysBridgeModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void start() {
-        getPushIOManager().ensureRegistration();
-    }
-
-    @ReactMethod
     public void registerUserId(String userId) {
         getPushIOManager().registerUserId(userId);
     }
